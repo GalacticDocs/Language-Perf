@@ -8,8 +8,6 @@ fn loop_thru(array: [&str; 12]) {
     println!("");
 
     let mut m1: [i32; 10] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-    // let m2: Vec<i32> = m1.iter().copied().rev().collect();
-    // println!(vec!(m1))
     m1.reverse();
 
     println!("{:?}", m1);
