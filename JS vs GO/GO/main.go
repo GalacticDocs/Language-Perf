@@ -7,13 +7,13 @@ import (
 
 func loop_thru(array []string) {
 	for i := 0; i < len(array); i++ {
-		fmt.Println("[FOR LOOP] ", array[i])
+		fmt.Println("[FOR LOOP] Item: " + array[i])
 	}
 
 	fmt.Print("\n")
 
 	for _, value := range array {
-		fmt.Println("[FOR EACH LOOP] ", value)
+		fmt.Println("[FOR EACH LOOP] Item: " + value)
 	}
 
 	fmt.Print("\n")
