@@ -10,11 +10,13 @@ func loop_thru(array []string) {
 		fmt.Println("[FOR LOOP] ", array[i])
 	}
 
+	fmt.Print("\n")
+
 	for _, value := range array {
 		fmt.Println("[FOR EACH LOOP] ", value)
 	}
 
-	fmt.Println("\n")
+	fmt.Print("\n")
 
 	m1 := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 
@@ -23,6 +25,7 @@ func loop_thru(array []string) {
 	}
 
 	fmt.Println(m1)
+	fmt.Print("\n")
 }
 
 func time_devider(timer_one int64, timer_two int64) int64 {
