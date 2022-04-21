@@ -3,7 +3,7 @@ const loop_thru = (array) => {
         console.log(`[FOR LOOP] Item: ${array[i]}`);
     }
 
-    console.log("\n");
+    console.log("");
     
     array.forEach((item) => {
         console.log(`[FOR EACH LOOP] Item: ${item}`);
@@ -14,7 +14,6 @@ const loop_thru = (array) => {
 
     console.log(`\n${m2.reverse()}\n`);
 };
-
 const time_devider = (timer_one, timer_two) => {
     return timer_one - timer_two;
 };
@@ -40,6 +39,8 @@ const main = () => {
     );
 
     let timer_two = Date.now();
+
+    //devide_timers(timer_one, timer_two);
 
     return console.log(`[TIMERS DEVISION] ${time_devider(timer_two, timer_one)}ms`);
 };
