@@ -40,8 +40,6 @@ const main = () => {
 
     let timer_two = Date.now();
 
-    //devide_timers(timer_one, timer_two);
-
     return console.log(`[TIMERS DEVISION] ${time_devider(timer_two, timer_one)}ms`);
 };
 
