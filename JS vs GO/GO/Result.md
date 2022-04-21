@@ -1,6 +1,5 @@
 ## Result
-```diff
-Desktop\Language Checking\JS vs GO>go run GO/main.go
+```
 [FOR LOOP]  This
 [FOR LOOP]  is
 [FOR LOOP]  that
