@@ -1,2 +1,2 @@
 # Language-Perf
-> • [JavaScript vs GOlang](https://github.com/GalacticDocs/Language-Perf/blob/main/JS%20vs%20GO/README.md)
+> • [JavaScript vs GO lang vs RUST lang](https://github.com/GalacticDocs/Language-Perf/tree/main/JS%20vs%20GO%20vs%20RUST/README.md)
