@@ -14,6 +14,7 @@ const loop_thru = (array) => {
 
     console.log(`\n${m2.reverse()}\n`);
 };
+
 const time_devider = (timer_one, timer_two) => {
     return timer_one - timer_two;
 };
